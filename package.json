@@ -1,0 +1,22 @@
+{
+  "name": "hosted-broker-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  },
+  "dependencies": {
+    "micro": "^9.3.2",
+    "micro-query": "^0.3.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
